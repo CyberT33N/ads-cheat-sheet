@@ -31,6 +31,120 @@ VAST ist ein standardisiertes Protokoll der IAB (Interactive Advertising Bureau)
 **Beispiel:**  
 Ein Nutzer startet ein Video, und der Player lädt eine VAST-Ad von einem Werbenetzwerk. Diese Ad wird dann abgespielt, bevor der eigentliche Inhalt erscheint.
 
+
+VAST 3.0 vs VAST 4.3
+<details><summary>Click to expand..</summary>
+
+Hier ist ein detaillierter Vergleich zwischen **VAST 3.0** und **VAST 4.3**, zwei Versionen des IAB-Standards, der für die Auslieferung und das Tracking von Videoanzeigen genutzt wird:
+
+---
+
+### **VAST 3.0** (2012)  
+**Einführung:**  
+VAST 3.0 wurde entwickelt, um einige Einschränkungen von VAST 2.0 zu beheben, insbesondere bei der Flexibilität und der Unterstützung moderner Videoplayer. Es war jahrelang der Standard für Videoanzeigen.  
+
+#### **Hauptmerkmale:**  
+1. **Skippable Ads:**  
+   - Einführung von **„skip buttons“**: Es ermöglicht dem Nutzer, Anzeigen nach einer bestimmten Zeit zu überspringen.  
+   - Ermöglicht das Tracking von Skippable-Ad-Events (z. B. „Ad skipped“).  
+
+2. **Linear vs. Non-Linear Ads:**  
+   - Verbesserte Unterstützung für **Linear (Video)** und **Non-Linear Ads** (z. B. Overlay-Anzeigen).
+
+3. **Wrapper-Ads (Kaskadierende Anzeigen):**  
+   - Unterstützt mehrere Wrapper-Ads. Ad-Server können zusätzliche Informationen hinzufügen und die Anzeige an nachgelagerte Server weiterleiten.  
+   - Problem: Wrapper-Kaskaden können zu **langen Ladezeiten** führen.
+
+4. **Companion Ads:**  
+   - **Companion Ads** (z. B. Banner neben dem Video) sind besser integriert, um das Gesamterlebnis zu verbessern.  
+
+5. **Tracking-Events:**  
+   - Mehrere neue Tracking-Möglichkeiten für Ad-Impressionen und -Events: „Start“, „Complete“, „Pause“ usw.
+
+#### **Limitierungen:**  
+- Keine Unterstützung für **serverseitige Ad-Insertion (SSAI)**.  
+- Schlechte Performance bei **Multi-Screen**-Erfahrungen (Desktop vs. Mobile).  
+- Wrapper-Ads können ineffizient sein und die Ladezeit der Anzeigen verlängern.
+
+---
+
+### **VAST 4.3** (2019)  
+**Einführung:**  
+VAST 4.3 ist die neueste und modernste Version des Standards, entwickelt, um die Anforderungen der heutigen programmatischen und Multi-Screen-Welt zu erfüllen. Sie behebt viele Schwächen älterer Versionen und bietet zusätzliche Funktionen für Effizienz und Transparenz.  
+
+#### **Hauptmerkmale:**  
+1. **Unterstützung für serverseitige Ad-Insertion (SSAI):**  
+   - SSAI ermöglicht die nahtlose Integration von Anzeigen in Videostreams auf Server-Ebene, was Ad-Blocker umgeht und Ladezeiten reduziert.  
+
+2. **Ad Buffers & Readiness:**  
+   - Ermöglicht die **vorzeitige Anzeigevorbereitung** (Preloading), um Verzögerungen zu reduzieren.  
+
+3. **Verbesserte Wrapper-Ads:**  
+   - Wrapper-Ads sind effizienter: Es gibt **Fallback-Mechanismen**, um Fehler in der Ad-Lieferung zu vermeiden.  
+   - Reduzierte Kaskadierung, was Ladezeiten drastisch verringert.  
+
+4. **UniversalAdId:**  
+   - Einführung der **UniversalAdId**, die jeder Anzeige eine eindeutige Kennung zuweist. Dies verbessert die Nachverfolgbarkeit und die Transparenz für Werbetreibende.  
+
+5. **Interaktivität & Mehrformat-Unterstützung:**  
+   - **Unterstützung von neuen Formaten:** z. B. interaktive Anzeigen, 360°-Videos und VR-Content.  
+   - Verbesserte **Mobile- und Connected-TV-Unterstützung.**  
+
+6. **Verbessertes Tracking:**  
+   - Erweiterte Tracking-Möglichkeiten, z. B. für feiner abgestimmte Viewability-Metriken.  
+   - Unterstützt **Ad Verification Codes**, um Missbrauch und Invalid Traffic zu vermeiden.  
+
+7. **Ad Pods (Anzeigegruppen):**  
+   - Unterstützung für **Ad Pods**, also mehrere Anzeigen, die in einer definierten Reihenfolge ausgespielt werden können (z. B. ähnlich wie TV-Werbung).  
+
+8. **Mezzanine-Dateien:**  
+   - **Mezzanine-Dateien** (hochqualitative Videoquellen) können bereitgestellt werden, um automatisch herunterskalierte Varianten für verschiedene Geräte zu erstellen.  
+
+#### **Vorteile gegenüber 3.0:**  
+- **Weniger Ad-Ladeprobleme:** Dank effizienterer Wrapper-Mechanismen.  
+- **Bessere Transparenz:** Universelle IDs und bessere Tracking-Optionen.  
+- **Mobile und TV optimiert:** Für die heutige, geräteübergreifende Nutzung.  
+- **SSAI-Unterstützung:** Nahtlose und blockierungsresistente Ad-Insertion.
+
+---
+
+### **Vergleichstabelle: VAST 3.0 vs. 4.3**
+
+| **Feature**                  | **VAST 3.0**                     | **VAST 4.3**                    |
+|-------------------------------|-----------------------------------|----------------------------------|
+| **Skippable Ads**             | Unterstützt                     | Unterstützt                    |
+| **Wrapper-Effizienz**         | Ineffizient, kaskadierend        | Effizient, reduzierte Kaskaden  |
+| **Serverseitige Ad-Insertion**| Nicht unterstützt               | Vollständig unterstützt         |
+| **Tracking-Möglichkeiten**    | Grundlegendes Tracking          | Erweiterte Viewability-Metriken |
+| **Interaktive Ads**           | Eingeschränkt                   | Voll unterstützt               |
+| **Ad Pods**                   | Nicht unterstützt               | Unterstützt                    |
+| **Multi-Screen-Unterstützung**| Eingeschränkt                   | Optimiert                      |
+| **Ad Verification Codes**     | Nicht unterstützt               | Unterstützt                    |
+| **Videoqualität (Mezzanine)** | Nicht unterstützt               | Unterstützt                    |
+
+---
+
+### **Fazit: Was solltest du verwenden?**
+
+- **Für moderne Websites/Apps:** VAST **4.3** ist die klare Wahl, da es effizienter, flexibler und besser auf heutige Geräte und Anforderungen abgestimmt ist. Besonders, wenn du serverseitige Ad-Insertion, bessere Viewability-Messungen oder interaktive Formate möchtest.  
+- **Wenn du auf ältere Systeme angewiesen bist:** VAST 3.0 funktioniert weiterhin, hat jedoch Performance-Einschränkungen und ist veraltet.  
+
+Falls du planst, mit modernen Ad-Netzwerken oder programmatischen Plattformen zu arbeiten (z. B. Google Ad Manager, SpotX, FreeWheel), wirst du fast immer mit VAST 4.x arbeiten müssen.
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ### **2. Video Slider**  
@@ -111,6 +225,11 @@ Outstream ermöglicht es Publishern, Videoanzeigen auch ohne Videocontent zu mon
 
 Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt oder einfach nur Werbeflächen auf deiner Website monetarisieren willst.
 
+</details>
+
+
+
+
 
 
 
@@ -178,9 +297,6 @@ Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt 
 - **CPC:** Pays when a user clicks on an ad.
 
 Each model has its strengths depending on your advertising goals—whether it’s awareness (CPM), engagement (CPC), conversion (CPA, CPL), or app installs (CPI).
-
-
-</details>
 
 
 
