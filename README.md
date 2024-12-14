@@ -12,12 +12,112 @@
 
 ## Ads Types
 
-### VAST
-- VAST ist der Backbone für Videoanzeigen im Web. Es sorgt dafür, dass dein Video-Player mit Ad-Netzwerken kommuniziert und Anzeigen korrekt ausliefert. Wenn du ein Video-Ad-Setup planst, ist VAST-Unterstützung ein absolutes Muss, da es die Kompatibilität und Monetarisierung optimiert.
-
-- pre-roll, mid-roll, post-roll
+## Video
 
 
+
+Hier ist eine Erklärung zu den Begriffen, die du genannt hast, inklusive ihrer Funktionen und Einsatzgebiete:
+
+---
+
+### **1. VAST (Video Ad Serving Template)**  
+**Definition:**  
+VAST ist ein standardisiertes Protokoll der IAB (Interactive Advertising Bureau), das die Kommunikation zwischen einem Video-Player und einem Ad-Server ermöglicht. Es definiert, wie Videoanzeigen (z. B. Pre-Rolls, Mid-Rolls) ausgeliefert und getrackt werden.  
+
+**Anwendung:**  
+- VAST-Dateien (XML-basiert) enthalten alle notwendigen Informationen für die Auslieferung einer Anzeige: Videodatei-URL, Tracking-Links (Impression, Klicks), Ad-Dauer und Kreativ-Metadaten.  
+- Wird für **In-Stream Video Ads** wie Pre-Roll, Mid-Roll oder Post-Roll verwendet.
+
+**Beispiel:**  
+Ein Nutzer startet ein Video, und der Player lädt eine VAST-Ad von einem Werbenetzwerk. Diese Ad wird dann abgespielt, bevor der eigentliche Inhalt erscheint.
+
+---
+
+### **2. Video Slider**  
+**Definition:**  
+Ein Video Slider ist ein **Bannerformat**, das ein Video als Anzeige verwendet und beim Scrollen der Webseite am unteren Bildschirmrand oder in einer Ecke erscheint.  
+
+**Merkmale:**  
+- **Interaktiv und unaufdringlich:** Es bleibt sichtbar, während der Nutzer scrollt, ohne den Content komplett zu blockieren.  
+- **Position:** Meistens **sticky** am Rand (unten rechts/links).  
+- Unterstützt sowohl automatische Wiedergabe (autoplay) als auch manuelles Abspielen.  
+
+**Vorteil:**  
+Es sorgt für eine hohe Sichtbarkeit (Viewability) bei gleichzeitig geringer Nutzerstörung, weshalb es bei Advertisern beliebt ist.
+
+---
+
+### **3. Outstream Video**  
+**Definition:**  
+Outstream Video Ads sind Videoanzeigen, die **außerhalb von klassischen Video-Content** erscheinen – z. B. in einem Artikeltext, zwischen Absätzen oder in einem Sidebar-Widget.
+
+**Merkmale:**  
+- **Kein eigener Videoinhalt nötig:** Sie sind unabhängig von Video-Content, was sie für Publisher ohne Videoplattform attraktiv macht.  
+- **Autoplay bei Sichtbarkeit:** Die Videos starten automatisch, wenn sie im sichtbaren Bereich des Nutzers sind, und pausieren, wenn sie aus dem Bildschirm scrollen.  
+- **Formate:** Native In-Text-Videos, Sticky Videos oder interaktive Ads.
+
+**Vorteil:**  
+Outstream-Ads monetarisieren Content-Webseiten, die keinen eigenen Videoplayer betreiben.
+
+---
+
+### **4. RTB In-Stream Video Supply**  
+**Definition:**  
+Real-Time Bidding (RTB) für **In-Stream Video Ads** bezieht sich auf die **programmatische Auktion von Videoanzeigen**, die in einem Video-Player abgespielt werden (z. B. Pre-Roll, Mid-Roll, Post-Roll).  
+
+**Merkmale:**  
+- **In-Stream:** Video-Ads erscheinen **innerhalb eines Videoinhalts**, wie auf YouTube oder anderen Video-Plattformen.  
+- **Auktionsbasiert:** Advertiser bieten in Echtzeit auf Ad-Impressions basierend auf Zielgruppe, CPM und Ad-Performance.  
+- **Beispiele:** YouTube Pre-Roll-Ads oder Videoanzeigen auf Streaming-Seiten.  
+
+**Vorteil:**  
+Hochwertige Werbeplätze, da In-Stream-Ads meist einen hohen View-Through-Rate (VTR) und starke Zielgruppentreffer haben.
+
+---
+
+### **5. RTB Video Slider Supply**  
+**Definition:**  
+Dies ist ein programmatisches Format, bei dem Videoanzeigen als **Slider Ads** ausgespielt werden, wobei der Ad-Inventar über **Real-Time Bidding (RTB)** gehandelt wird.  
+
+**Merkmale:**  
+- Slider erscheinen beim Scrollen und sind **sticky** positioniert (z. B. unten rechts auf der Seite).  
+- **RTB-Auktion:** Werbetreibende bieten in Echtzeit auf diesen Werbeplatz basierend auf Nutzerverhalten und Segmentdaten.  
+
+**Vorteil:**  
+Es kombiniert die hohen Interaktionsraten eines Sliders mit der Effizienz des RTB-Systems.
+
+---
+
+### **6. RTB Outstream Video Supply**  
+**Definition:**  
+Programmatische Auktionen für **Outstream Video Ads**, die außerhalb von klassischen Videoinhalten geschaltet werden, z. B. zwischen Absätzen eines Artikels oder in Widgets.
+
+**Merkmale:**  
+- Video startet nur, wenn es im sichtbaren Bereich des Nutzers erscheint (Viewability-optimiert).  
+- **RTB-Steuerung:** Ad-Inventar wird in Echtzeit über DSPs (Demand-Side Platforms) und SSPs (Supply-Side Platforms) gehandelt.  
+
+**Vorteil:**  
+Outstream ermöglicht es Publishern, Videoanzeigen auch ohne Videocontent zu monetarisieren, während Advertiser Nutzer in neuen Kontexten erreichen.
+
+---
+
+### **Zusammenfassung:**  
+- **VAST:** Technisches Protokoll zur Auslieferung von Videoanzeigen.  
+- **Video Slider:** Sticky Video-Ad, die während des Scrollens sichtbar bleibt.  
+- **Outstream Video:** Videoanzeigen, die nicht an Video-Content gebunden sind (z. B. im Text oder Sidebar).  
+- **RTB In-Stream Video Supply:** Auktionen für Anzeigen in einem Video-Player (klassische Video-Ads wie Pre-Rolls).  
+- **RTB Video Slider Supply:** Auktionsbasiertes Handeln von Slider Video-Anzeigen.  
+- **RTB Outstream Video Supply:** Echtzeit-Auktionen für Outstream Videoanzeigen auf Nicht-Video-Plattformen.
+
+Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt oder einfach nur Werbeflächen auf deiner Website monetarisieren willst.
+
+
+
+
+
+
+
+<br><br>
 <br><br>
 
 
