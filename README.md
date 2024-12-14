@@ -180,7 +180,7 @@ Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt 
 Each model has its strengths depending on your advertising goals—whether it’s awareness (CPM), engagement (CPC), conversion (CPA, CPL), or app installs (CPI).
 
 
-<details>
+</details>
 
 
 
@@ -203,6 +203,7 @@ _________________________________
 
 # Revenue Order
 
+<details><summary>Click to expand..</summary>
 
 Hier ist eine sortierte Liste mit den gängigsten Ad-Formaten und ihrer typischen Monetarisierungsleistung, sortiert nach den höchsten Einnahmen **pro Impression, View oder Klick** (je nach Format). Die Einnahmen können je nach Zielgruppe, Traffic-Qualität und Region stark variieren, aber das Ranking gibt dir eine allgemeine Orientierung:  
 
@@ -312,6 +313,21 @@ Hier ist eine sortierte Liste mit den gängigsten Ad-Formaten und ihrer typische
 - Zusätzliche Einnahmen durch Sticky Sliders und Affiliate-Links maximieren.  
 
 Hast du bestimmte Traffic-Quellen oder eine Zielgruppe im Kopf? Damit können wir deine Strategie noch weiter verfeinern! 😊
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
