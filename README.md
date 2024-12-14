@@ -1,7 +1,24 @@
 # ads-cheat-sheet
 
 
+
+
+
+
+<br><br>
+
+
+
+
 ## Ads Types
+
+### VAST
+- VAST ist der Backbone für Videoanzeigen im Web. Es sorgt dafür, dass dein Video-Player mit Ad-Netzwerken kommuniziert und Anzeigen korrekt ausliefert. Wenn du ein Video-Ad-Setup planst, ist VAST-Unterstützung ein absolutes Muss, da es die Kompatibilität und Monetarisierung optimiert.
+
+- pre-roll, mid-roll, post-roll
+
+
+<br><br>
 
 
 ### **1. CPA (Cost Per Action)**  
@@ -72,6 +89,9 @@ Each model has its strengths depending on your advertising goals—whether it’
 
 
 
+
+
+
 <br><br>
 <br><br>
 _________________________________
@@ -85,4 +105,26 @@ _________________________________
 1. Google Adsense
 2. Popads
 3. JuicyAds
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+_________________________________
+_________________________________
+<br><br>
+<br><br>
+
+# Ad Networks
+
+<br><br>
+
+## VAST 
+- exoclick
+
 
