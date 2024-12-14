@@ -10,10 +10,10 @@
 
 
 
-## Ads Types
+# Ads Types
 
 ## Video
-
+<details><summary>Click to expand..</summary>
 
 
 Hier ist eine Erklärung zu den Begriffen, die du genannt hast, inklusive ihrer Funktionen und Einsatzgebiete:
@@ -180,7 +180,7 @@ Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt 
 Each model has its strengths depending on your advertising goals—whether it’s awareness (CPM), engagement (CPC), conversion (CPA, CPL), or app installs (CPI).
 
 
-
+<details>
 
 
 
@@ -200,11 +200,157 @@ _________________________________
 <br><br>
 
 
-# Ratings CPM
+
+# Revenue Order
+
+
+Hier ist eine sortierte Liste mit den gängigsten Ad-Formaten und ihrer typischen Monetarisierungsleistung, sortiert nach den höchsten Einnahmen **pro Impression, View oder Klick** (je nach Format). Die Einnahmen können je nach Zielgruppe, Traffic-Qualität und Region stark variieren, aber das Ranking gibt dir eine allgemeine Orientierung:  
+
+---
+
+### **1. Pre-Roll Video Ads (In-Stream Video)**  
+- **Was:** Videoanzeigen, die vor einem Videoinhalt abgespielt werden.  
+- **Bezahlung:** CPM (Cost per Mille – pro 1.000 Aufrufe).  
+- **Einnahmenpotenzial:** **$20–$50 CPM** (je nach Traffic und Zielgruppe, z. B. in den USA höher).  
+- **Warum so hoch?**  
+  - Hohe Engagement-Rate, da die Anzeige vor dem eigentlichen Content abgespielt wird.  
+  - Hohe Viewability und VTR (View-Through-Rate).  
+- **Bestes Einsatzgebiet:** Streaming-Websites, Videoplattformen wie YouTube.
+
+---
+
+### **2. Mid-Roll Video Ads (In-Stream Video)**  
+- **Was:** Anzeigen, die in der Mitte eines Videoinhalts abgespielt werden.  
+- **Bezahlung:** CPM.  
+- **Einnahmenpotenzial:** **$15–$40 CPM**.  
+- **Warum?**  
+  - Noch höhere Engagement-Rate, da der Zuschauer mitten im Video ist und weniger schnell abspringt.  
+- **Bestes Einsatzgebiet:** Längere Videos, z. B. Podcasts oder Tutorials.
+
+---
+
+### **3. Outstream Video Ads**  
+- **Was:** Videoanzeigen, die in Textbereichen oder außerhalb eines Videoplayers erscheinen.  
+- **Bezahlung:** CPM, oft Viewability-optimiert (z. B. nur gezählt, wenn die Anzeige wirklich im sichtbaren Bereich abgespielt wurde).  
+- **Einnahmenpotenzial:** **$10–$30 CPM**.  
+- **Warum?**  
+  - Geringere Abhängigkeit von Videocontent.  
+  - Hohe Viewability durch autoplay bei Sichtbarkeit.  
+- **Bestes Einsatzgebiet:** Content-Websites mit wenig eigenem Video.
+
+---
+
+### **4. Interstitial Ads (Fullscreen Pop-Up Ads)**  
+- **Was:** Vollbildanzeigen, die zwischen Seitenwechseln oder als Übergang geschaltet werden.  
+- **Bezahlung:** CPC (Cost per Click) oder CPM.  
+- **Einnahmenpotenzial:** **$5–$25 CPM oder $0.50–$5 CPC**.  
+- **Warum?**  
+  - Hohe Klick- und Conversion-Raten durch maximale Sichtbarkeit.  
+  - Kann nervig wirken, deshalb sparsam einsetzen.  
+- **Bestes Einsatzgebiet:** Mobile Apps oder Gaming-Websites.
+
+---
+
+### **5. Sticky Video Slider Ads**  
+- **Was:** Videos, die beim Scrollen sticky am Rand sichtbar bleiben.  
+- **Bezahlung:** CPM.  
+- **Einnahmenpotenzial:** **$5–$20 CPM**.  
+- **Warum?**  
+  - Sichtbar während der gesamten User-Session.  
+  - Perfekt für Content- oder News-Seiten.  
+
+---
+
+### **6. Banner Ads mit RTB (Programmatic Display Ads)**  
+- **Was:** Klassische Displayanzeigen (728x90, 300x250 usw.), die über Real-Time Bidding gehandelt werden.  
+- **Bezahlung:** CPM oder CPC.  
+- **Einnahmenpotenzial:**  
+  - **CPC:** $0.10–$1 pro Klick.  
+  - **CPM:** **$1–$10**, abhängig von der Qualität und Nische des Traffics.  
+- **Warum?**  
+  - Leicht einzubauen, aber niedrige Engagement-Rate, da Banner oft ignoriert werden (Banner-Blindness).  
+
+---
+
+### **7. Native Ads (Empfohlene Inhalte, Content-Werbung)**  
+- **Was:** Anzeigen, die aussehen wie empfohlene Inhalte oder Teil des Website-Designs sind (z. B. „Weitere Artikel lesen“).  
+- **Bezahlung:** CPC.  
+- **Einnahmenpotenzial:** **$0.10–$5 CPC**.  
+- **Warum?**  
+  - Wird oft geklickt, da es wie ein regulärer Inhalt aussieht.  
+  - Aber Klicks können zu geringeren Conversion-Raten führen.  
+
+---
+
+### **8. Affiliate Marketing (z. B. Amazon-Links)**  
+- **Was:** Provisionen für Verkäufe, die durch Klicks auf Partnerlinks entstehen.  
+- **Bezahlung:** Prozentsatz des Verkaufswerts.  
+- **Einnahmenpotenzial:**  
+  - **2–10 %** pro Verkauf.  
+  - Kann sehr lukrativ sein, wenn die Zielgruppe kauffreudig ist.  
+- **Warum?**  
+  - Direkte Monetarisierung, kein Ad-Blocker-Problem.  
+
+---
+
+### **Zusammenfassung – Monetarisierungspotenzial (absteigend):**
+
+1. **Pre-Roll Video Ads (In-Stream)**: $20–$50 CPM  
+2. **Mid-Roll Video Ads (In-Stream)**: $15–$40 CPM  
+3. **Outstream Video Ads**: $10–$30 CPM  
+4. **Interstitial Ads (Fullscreen Pop-Ups)**: $5–$25 CPM oder $0.50–$5 CPC  
+5. **Sticky Video Slider Ads**: $5–$20 CPM  
+6. **Banner Ads (RTB)**: $1–$10 CPM oder $0.10–$1 CPC  
+7. **Native Ads**: $0.10–$5 CPC  
+8. **Affiliate Marketing**: Variabel (2–10 % Provision pro Sale)  
+
+---
+
+### **Empfehlung für maximale Einnahmen:**  
+- **Videocontent erstellen:** Fokus auf **Pre-Roll** und **Mid-Roll Video Ads**, da diese die höchsten CPMs bieten.  
+- **Outstream-Ads einbauen**, wenn du keine eigenen Videos hast.  
+- Zusätzliche Einnahmen durch Sticky Sliders und Affiliate-Links maximieren.  
+
+Hast du bestimmte Traffic-Quellen oder eine Zielgruppe im Kopf? Damit können wir deine Strategie noch weiter verfeinern! 😊
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+_________________________________
+_________________________________
+<br><br>
+<br><br>
+
+
+# Ratings CPM - Companies
 
 1. Google Adsense
 2. Popads
 3. JuicyAds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
