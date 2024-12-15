@@ -578,7 +578,10 @@ _________________________________
 <br><br>
 
 ### Mondiad
+- [Verify Level] - Easy (Adult & Mainstream)
 - [Adult Ads] - Yes
+- [Verify Time] - Instant
+
 
 
 
@@ -600,7 +603,7 @@ _________________________________
 <br><br>
   
 ### Popcash
-- [Verify Level] - Easy Adult & Mainstream
+- [Verify Level] - Easy (Adult & Mainstream)
 - [Verify Time] - Minutes
 - [Adult Ads on mainstream site] - Yes
 - [Adult Ads] - Yes
