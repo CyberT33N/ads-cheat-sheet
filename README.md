@@ -263,7 +263,8 @@ Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt 
 
 # Types
 
-
+<details><summary>Click to expand..</summary>
+   
 <br><br>
 <br><br>
 
@@ -325,6 +326,30 @@ Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt 
 - **CPC:** Pays when a user clicks on an ad.
 
 Each model has its strengths depending on your advertising goals—whether it’s awareness (CPM), engagement (CPC), conversion (CPA, CPL), or app installs (CPI).
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
