@@ -620,10 +620,29 @@ _________________________________
 <details><summary>Click to expand..</summary>
 
 
+
+
+# Advetiser
+
+<details><summary>Click to expand..</summary>
+
+
+# Traffic Junky
+
+</details>
+
+
+
+
+
+# Publisher
+
+<details><summary>Click to expand..</summary>
+
 <br><br>
 <br><br>
 
-## exoclick
+# exoclick
 - [Verify Level]
   - Medium/Hard (Mainstream Content)
   - Easy (Adult Content)
@@ -635,7 +654,7 @@ _________________________________
 
 <br><br>
 
-## Mondiad
+# Mondiad
 - [Verify Level]
   - Easy (Mainstream Content)
   - Easy (Adult Content)
@@ -647,7 +666,7 @@ _________________________________
 
 <br><br>
 
-## Popads
+# Popads
 - [Verify Time] - 2-3 Dys
 - [Adult Ads] - Yes
 - [POPUNDER] - Yes
@@ -656,7 +675,7 @@ _________________________________
   
 <br><br>
   
-## Popcash
+# Popcash
 - [Verify Level]
   - Easy (Mainstream Content)
   - Easy (Adult Content)
@@ -669,7 +688,7 @@ _________________________________
 
 <br><br>
 
-## Adsterra
+# Adsterra
 - [Verify Level]
   - Easy (Mainstream Content)
   - Easy (Adult Content)
@@ -679,5 +698,7 @@ _________________________________
 - [POPUNDER] - Yes
 - [BANNER] - Yes
 - [VAST] - NO
+
+</details>
 
 </details>
