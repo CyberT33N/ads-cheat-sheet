@@ -539,8 +539,15 @@ _________________________________
 
 # Ratings CPM - Companies
 
-1. Google Adsense
-2. Popads
+## VAST
+1. Exoclick (Adult)
+2. HilltopAds (Adult)
+3. Google Ads
+
+
+# POPUNDER
+1. Popads
+2. Popcash
 3. JuicyAds (Adult only)
 
 
