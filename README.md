@@ -663,7 +663,10 @@ _________________________________
 
 <br><br>
 
-# Popads
+# Popads **HOT**
+- [Verify Level]
+  - Easy (Mainstream Content)
+  - Easy (Adult Content)
 - [Verify Time] - 2-3 Dys
 - [Adult Ads] - Yes
 - [POPUNDER] - Yes
