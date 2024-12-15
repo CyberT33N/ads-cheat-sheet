@@ -630,8 +630,9 @@ _________________________________
 <br><br>
 
 # exoclick
+- Make sure to use subdomain e.g. https://www.example.com/
 - [Verify Level]
-  - Medium/Hard (Mainstream Content)
+  - Easy (Mainstream Content)
   - Easy (Adult Content)
 - [Adult Ads] - Yes
 - [Verify Time] - 24 hours
