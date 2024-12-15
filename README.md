@@ -261,7 +261,7 @@ Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt 
 <br><br>
 <br><br>
 
-# Types
+## Types
 
 <details><summary>Click to expand..</summary>
    
@@ -572,4 +572,8 @@ _________________________________
 ## Banner
 - JuicyAds (Adult only)
 
+
+## Popunder
+- Popads
+- Popcash
 
