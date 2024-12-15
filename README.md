@@ -10,7 +10,7 @@
 
 
 
-# Ads Types
+# Ads Definitions
 
 ## Video
 <details><summary>Click to expand..</summary>
@@ -239,6 +239,31 @@ Alle Formate haben ihre eigene Stärke, je nachdem, ob du Video-Content besitzt 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+<br><br>
+<br><br>
+
+# Types
+
+
 <br><br>
 <br><br>
 
@@ -458,6 +483,15 @@ Hast du bestimmte Traffic-Quellen oder eine Zielgruppe im Kopf? Damit können wi
 
 
 
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 _________________________________
@@ -470,7 +504,7 @@ _________________________________
 
 1. Google Adsense
 2. Popads
-3. JuicyAds
+3. JuicyAds (Adult only)
 
 
 
@@ -507,5 +541,10 @@ _________________________________
 
 ## VAST 
 - exoclick
+
+<br><br>
+
+## Banner
+- JuicyAds (Adult only)
 
 
