@@ -539,6 +539,9 @@ _________________________________
 
 # Ratings CPM - Companies
 
+## Banner
+1. Juicy Ads (Adult)
+
 ## VAST
 1. Exoclick (Adult)
 2. HilltopAds (Adult)
@@ -546,9 +549,9 @@ _________________________________
 
 
 # POPUNDER
-1. Popads
-2. Popcash
-3. JuicyAds (Adult only)
+1. Popads (Adult)
+2. Popcash (Adult)
+3. JuicyAds (Adult)
 
 
 
