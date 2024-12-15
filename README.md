@@ -638,6 +638,8 @@ _________________________________
 
 # exoclick
 - Make sure to use subdomain e.g. https://www.example.com/
+  - I got verified by using `Enterntainment & Lifestyle` as Genre. Not sure if Adult works aswell if your site is not..
+
 - [Verify Level]
   - Easy (Mainstream Content)
   - Easy (Adult Content)
