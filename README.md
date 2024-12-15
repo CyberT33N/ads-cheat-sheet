@@ -562,6 +562,9 @@ _________________________________
 
 # Ad Networks
 
+
+
+<br><br>
 <br><br>
 
 ## VAST 
@@ -571,7 +574,14 @@ _________________________________
 
 ## Banner
 - JuicyAds (Adult only)
-- Mondiad
+
+<br><br>
+
+### Mondiad
+- [Adult Ads] - Yes
+
+
+
 
 
 
@@ -584,10 +594,14 @@ _________________________________
 <br><br>
 
 ### Popads
+- [Verify Time] - 2-3 Dys
+- [Adult Ads] - Yes
 
 <br><br>
   
 ### Popcash
 - [Verify Level] - Easy Adult & Mainstream
+- [Verify Time] - Minutes
 - [Adult Ads on mainstream site] - Yes
+- [Adult Ads] - Yes
 
