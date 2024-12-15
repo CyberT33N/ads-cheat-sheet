@@ -1,4 +1,4 @@
-# ads-cheat-sheet
+# Ads Cheat Sheet
 
 
 
@@ -12,10 +12,13 @@
 
 # Ads Definitions
 
+<br><br>
+
 ## Video
+
 <details><summary>Click to expand..</summary>
 
-### Sample Tags
+# Sample Tags
 - https://developers.google.com/interactive-media-ads/docs/sdks/html5/client-side/tags
 
 
@@ -23,7 +26,7 @@ Hier ist eine Erklärung zu den Begriffen, die du genannt hast, inklusive ihrer 
 
 ---
 
-### **1. VAST (Video Ad Serving Template)**  
+# **1. VAST (Video Ad Serving Template)**  
 **Definition:**  
 VAST ist ein standardisiertes Protokoll der IAB (Interactive Advertising Bureau), das die Kommunikation zwischen einem Video-Player und einem Ad-Server ermöglicht. Es definiert, wie Videoanzeigen (z. B. Pre-Rolls, Mid-Rolls) ausgeliefert und getrackt werden.  
 
@@ -42,7 +45,53 @@ Hier ist ein detaillierter Vergleich zwischen **VAST 3.0** und **VAST 4.3**, zwe
 
 ---
 
-### **VAST 3.0** (2012)  
+## Example Code
+- https://codepen.io/imasdk/pen/wpyQXP
+- https://github.com/googleads/videojs-ima
+  
+```html
+<html>
+  <head>
+    <!-- Load dependent stylesheets. -->
+    <link rel="stylesheet" href="//googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css" />
+    <link rel="stylesheet" href="//googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.css" />
+    <link rel="stylesheet" href="//googleads.github.io/videojs-ima/dist/videojs.ima.css" />
+  </head>
+
+  <body>
+    <video id="content_video" class="video-js vjs-default-skin"
+        controls preload="auto" width="640" height="360">
+      <source src="https://storage.googleapis.com/gvabox/media/samples/android.mp4"
+          type="video/mp4" />
+    </video>
+    <!-- Load dependent scripts -->
+    <script src="//googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js"></script>
+    <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script src="//googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.min.js"></script>
+    <script src="//googleads.github.io/videojs-ima/dist/videojs.ima.js"></script>
+  </body>
+</html>
+```
+
+```javascript
+var player = videojs('content_video');
+
+var options = {
+  id: 'content_video',
+  adTagUrl: 'http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&cust_params=sample_ar%3Dpremidpostpod%26deployment%3Dgmf-js&cmsid=496&vid=short_onecue&correlator='
+};
+
+player.ima(options);
+// On mobile devices, you must call initializeAdDisplayContainer as the result
+// of a user action (e.g. button click). If you do not make this call, the SDK
+// will make it for you, but not as the result of a user action. For more info
+// see our examples, all of which are set up to work on mobile devices.
+// player.ima.initializeAdDisplayContainer();
+```
+
+---
+
+# **VAST 3.0** (2012)  
 **Einführung:**  
 VAST 3.0 wurde entwickelt, um einige Einschränkungen von VAST 2.0 zu beheben, insbesondere bei der Flexibilität und der Unterstützung moderner Videoplayer. Es war jahrelang der Standard für Videoanzeigen.  
 
@@ -64,18 +113,18 @@ VAST 3.0 wurde entwickelt, um einige Einschränkungen von VAST 2.0 zu beheben, i
 5. **Tracking-Events:**  
    - Mehrere neue Tracking-Möglichkeiten für Ad-Impressionen und -Events: „Start“, „Complete“, „Pause“ usw.
 
-#### **Limitierungen:**  
+## **Limitierungen:**  
 - Keine Unterstützung für **serverseitige Ad-Insertion (SSAI)**.  
 - Schlechte Performance bei **Multi-Screen**-Erfahrungen (Desktop vs. Mobile).  
 - Wrapper-Ads können ineffizient sein und die Ladezeit der Anzeigen verlängern.
 
 ---
 
-### **VAST 4.3** (2019)  
+# **VAST 4.3** (2019)  
 **Einführung:**  
 VAST 4.3 ist die neueste und modernste Version des Standards, entwickelt, um die Anforderungen der heutigen programmatischen und Multi-Screen-Welt zu erfüllen. Sie behebt viele Schwächen älterer Versionen und bietet zusätzliche Funktionen für Effizienz und Transparenz.  
 
-#### **Hauptmerkmale:**  
+## **Hauptmerkmale:**  
 1. **Unterstützung für serverseitige Ad-Insertion (SSAI):**  
    - SSAI ermöglicht die nahtlose Integration von Anzeigen in Videostreams auf Server-Ebene, was Ad-Blocker umgeht und Ladezeiten reduziert.  
 
@@ -103,7 +152,7 @@ VAST 4.3 ist die neueste und modernste Version des Standards, entwickelt, um die
 8. **Mezzanine-Dateien:**  
    - **Mezzanine-Dateien** (hochqualitative Videoquellen) können bereitgestellt werden, um automatisch herunterskalierte Varianten für verschiedene Geräte zu erstellen.  
 
-#### **Vorteile gegenüber 3.0:**  
+## **Vorteile gegenüber 3.0:**  
 - **Weniger Ad-Ladeprobleme:** Dank effizienterer Wrapper-Mechanismen.  
 - **Bessere Transparenz:** Universelle IDs und bessere Tracking-Optionen.  
 - **Mobile und TV optimiert:** Für die heutige, geräteübergreifende Nutzung.  
@@ -111,7 +160,7 @@ VAST 4.3 ist die neueste und modernste Version des Standards, entwickelt, um die
 
 ---
 
-### **Vergleichstabelle: VAST 3.0 vs. 4.3**
+## **Vergleichstabelle: VAST 3.0 vs. 4.3**
 
 | **Feature**                  | **VAST 3.0**                     | **VAST 4.3**                    |
 |-------------------------------|-----------------------------------|----------------------------------|
@@ -127,7 +176,7 @@ VAST 4.3 ist die neueste und modernste Version des Standards, entwickelt, um die
 
 ---
 
-### **Fazit: Was solltest du verwenden?**
+# **Fazit: Was solltest du verwenden?**
 
 - **Für moderne Websites/Apps:** VAST **4.3** ist die klare Wahl, da es effizienter, flexibler und besser auf heutige Geräte und Anforderungen abgestimmt ist. Besonders, wenn du serverseitige Ad-Insertion, bessere Viewability-Messungen oder interaktive Formate möchtest.  
 - **Wenn du auf ältere Systeme angewiesen bist:** VAST 3.0 funktioniert weiterhin, hat jedoch Performance-Einschränkungen und ist veraltet.  
