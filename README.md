@@ -38,14 +38,9 @@ VAST ist ein standardisiertes Protokoll der IAB (Interactive Advertising Bureau)
 Ein Nutzer startet ein Video, und der Player lädt eine VAST-Ad von einem Werbenetzwerk. Diese Ad wird dann abgespielt, bevor der eigentliche Inhalt erscheint.
 
 
-VAST 3.0 vs VAST 4.3
-<details><summary>Click to expand..</summary>
+<br><br>
 
-Hier ist ein detaillierter Vergleich zwischen **VAST 3.0** und **VAST 4.3**, zwei Versionen des IAB-Standards, der für die Auslieferung und das Tracking von Videoanzeigen genutzt wird:
-
----
-
-## Example Code
+## Example Code (Video.js)
 - https://codepen.io/imasdk/pen/wpyQXP
 - https://github.com/googleads/videojs-ima
   
@@ -88,6 +83,15 @@ player.ima(options);
 // see our examples, all of which are set up to work on mobile devices.
 // player.ima.initializeAdDisplayContainer();
 ```
+
+<br><br>
+<br><br>
+
+## VAST 3.0 vs VAST 4.3
+
+<details><summary>Click to expand..</summary>
+
+Hier ist ein detaillierter Vergleich zwischen **VAST 3.0** und **VAST 4.3**, zwei Versionen des IAB-Standards, der für die Auslieferung und das Tracking von Videoanzeigen genutzt wird:
 
 ---
 
