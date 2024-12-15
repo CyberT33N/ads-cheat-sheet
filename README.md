@@ -15,6 +15,9 @@
 ## Video
 <details><summary>Click to expand..</summary>
 
+### Sample Tags
+- https://developers.google.com/interactive-media-ads/docs/sdks/html5/client-side/tags
+
 
 Hier ist eine Erklärung zu den Begriffen, die du genannt hast, inklusive ihrer Funktionen und Einsatzgebiete:
 
