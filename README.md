@@ -661,6 +661,9 @@ _________________________________
 - [BANNER] - Yes
 - [VAST] - NO
 
+
+
+
 <br><br>
 
 # Popads **HOT**
@@ -672,6 +675,27 @@ _________________________________
 - [POPUNDER] - Yes
 - [BANNER] - No
 - [VAST] - NO
+
+I verified my website with:
+- https://www.example.com
+
+And I used this Domain Advanced DNS Settings:
+```
+# This is for root domain example.com
+Type: CNAME Record
+Host: wwww
+Value: your digital ocean app link
+TTL: automatic
+
+# This is for sub domain www.example.com
+Type: ALIAS Record
+Host: @
+Value: your digital ocean app link
+TTL: automatic
+```
+
+
+
   
 <br><br>
   
