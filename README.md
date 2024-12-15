@@ -574,7 +574,20 @@ _________________________________
 - Mondiad
 
 
+
+
+<br><br>
+<br><br>
+
 ## Popunder
-- Popads
-- Popcash
+
+<br><br>
+
+### Popads
+
+<br><br>
+  
+### Popcash
+- [Verify Level] - Easy Adult & Mainstream
+- [Adult Ads on mainstream site] - Yes
 
