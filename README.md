@@ -48,9 +48,9 @@ Ein Nutzer startet ein Video, und der Player lädt eine VAST-Ad von einem Werben
 <html>
   <head>
     <!-- Load dependent stylesheets. -->
-    <link rel="stylesheet" href="//googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css" />
-    <link rel="stylesheet" href="//googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.css" />
-    <link rel="stylesheet" href="//googleads.github.io/videojs-ima/dist/videojs.ima.css" />
+    <link rel="stylesheet" href="https://googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css" />
+    <link rel="stylesheet" href="https://googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.css" />
+    <link rel="stylesheet" href="https://googleads.github.io/videojs-ima/dist/videojs.ima.css" />
   </head>
 
   <body>
@@ -59,20 +59,22 @@ Ein Nutzer startet ein Video, und der Player lädt eine VAST-Ad von einem Werben
       <source src="https://storage.googleapis.com/gvabox/media/samples/android.mp4"
           type="video/mp4" />
     </video>
+
     <!-- Load dependent scripts -->
-    <script src="//googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js"></script>
-    <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
-    <script src="//googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.min.js"></script>
-    <script src="//googleads.github.io/videojs-ima/dist/videojs.ima.js"></script>
+    <script src="https://googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js"></script>
+    <script src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script src="https://googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.min.js"></script>
+    <script src="https://googleads.github.io/videojs-ima/dist/videojs.ima.js"></script>
   </body>
 </html>
 ```
 
 ```javascript
-var player = videojs('content_video');
+const player = videojs('content_video');
 
-var options = {
+const options = {
   id: 'content_video',
+  // Sample Tag for pre-roll, mid-roll and post-roll
   adTagUrl: 'http://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&cust_params=sample_ar%3Dpremidpostpod%26deployment%3Dgmf-js&cmsid=496&vid=short_onecue&correlator='
 };
 
