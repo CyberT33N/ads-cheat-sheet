@@ -622,44 +622,59 @@ _________________________________
 <br><br>
 <br><br>
 
-## VAST 
-- exoclick
+## exoclick
+- [Verify Level]
+  - Medium/Hard (Mainstream Content)
+  - Easy (Adult Content)
+- [Adult Ads] - Yes
+- [Verify Time] - 24 hours
+- [VAST] - Yes
+- [POPUNDER] - Yes
+- [BANNER] - Yes
 
 <br><br>
 
-## Banner
-- JuicyAds (Adult only)
-
-<br><br>
-
-### Mondiad
-- [Verify Level] - Easy (Adult & Mainstream)
+## Mondiad
+- [Verify Level]
+  - Easy (Mainstream Content)
+  - Easy (Adult Content)
 - [Adult Ads] - Yes
 - [Verify Time] - Instant
-
-
-
-
-
-
-
-
-<br><br>
-<br><br>
-
-## Popunder
+- [POPUNDER] - No
+- [BANNER] - Yes
+- [VAST] - NO
 
 <br><br>
 
-### Popads
+## Popads
 - [Verify Time] - 2-3 Dys
 - [Adult Ads] - Yes
-
+- [POPUNDER] - Yes
+- [BANNER] - No
+- [VAST] - NO
+  
 <br><br>
   
-### Popcash
-- [Verify Level] - Easy (Adult & Mainstream)
+## Popcash
+- [Verify Level]
+  - Easy (Mainstream Content)
+  - Easy (Adult Content)
 - [Verify Time] - Minutes
 - [Adult Ads on mainstream site] - Yes
 - [Adult Ads] - Yes
+- [POPUNDER] - Yes
+- [BANNER] - No
+- [VAST] - NO
 
+<br><br>
+
+## Adsterra
+- [Verify Level]
+  - Easy (Mainstream Content)
+  - Easy (Adult Content)
+- [Verify Time] - Instant
+- [Adult Ads on mainstream site] - Yes
+- [Adult Ads] - Yes
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - NO
