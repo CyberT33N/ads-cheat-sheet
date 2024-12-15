@@ -622,7 +622,7 @@ _________________________________
 
 
 
-# Advetiser
+# Advertiser
 
 <details><summary>Click to expand..</summary>
 
@@ -635,10 +635,40 @@ _________________________________
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
 # Publisher
 
 <details><summary>Click to expand..</summary>
 
+<br><br>
+<br><br>
+
+# HilltopAds
+- [Verify Level]
+  - Easy (Mainstream Content)
+  - Easy (Adult Content)
+- [Adult Ads] - Yes
+- [Verify Time] - Instant
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - Yes
+  
 <br><br>
 <br><br>
 
