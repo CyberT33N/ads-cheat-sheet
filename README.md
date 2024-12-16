@@ -645,7 +645,8 @@ _________________________________
 
 - [Verify Level]
   - Easy (Mainstream Content)
-  - Unknown (Mainstream Content with Adult Ads)
+  - HARD (Mainstream Content with Adult Ads)
+    - Not possible if you do not provide adult content 
   - Easy (Adult Content)
 - [Adult Ads] - Yes
 - [Verify Time] - 24 hours
