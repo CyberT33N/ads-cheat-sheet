@@ -640,9 +640,12 @@ _________________________________
 <br><br>
 
 # exoclick
-- Make sure to use subdomain e.g. https://www.example.com/
+- **Make sure to use subdomain e.g. https://www.example.com/**
+- **Once you verified an website you can not remove it and add again. You are only able to archieve it or change the website genre**
+
 - [Verify Level]
-  - Easy (Mainstream Content with Adult Ads)
+  - Easy (Mainstream Content)
+  - Unknown (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
 - [Adult Ads] - Yes
 - [Verify Time] - 24 hours
