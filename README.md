@@ -628,7 +628,7 @@ _________________________________
 
 # HilltopAds
 - [Verify Level]
-  - Easy (Mainstream Content)
+  - Easy (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
 - [Adult Ads] - Yes
 - [Verify Time] - Instant
@@ -641,10 +641,8 @@ _________________________________
 
 # exoclick
 - Make sure to use subdomain e.g. https://www.example.com/
-  - I got verified by using `Enterntainment & Lifestyle` as Genre with a non adult site. **You can later switch it but then the pending will start again**
-
 - [Verify Level]
-  - Easy (Mainstream Content)
+  - Easy (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
 - [Adult Ads] - Yes
 - [Verify Time] - 24 hours
@@ -656,7 +654,7 @@ _________________________________
 
 # Mondiad
 - [Verify Level]
-  - Easy (Mainstream Content)
+  - Easy (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
 - [Adult Ads] - Yes
 - [Verify Time] - Instant
@@ -671,7 +669,7 @@ _________________________________
 
 # Popads **HOT**
 - [Verify Level]
-  - Easy (Mainstream Content)
+  - Easy (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
 - [Verify Time] - 2-3 Dys
 - [Adult Ads] - Yes
@@ -704,7 +702,7 @@ TTL: automatic
   
 # Popcash
 - [Verify Level]
-  - Easy (Mainstream Content)
+  - Easy (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
 - [Verify Time] - Minutes
 - [Adult Ads on mainstream site] - Yes
@@ -717,7 +715,7 @@ TTL: automatic
 
 # Adsterra
 - [Verify Level]
-  - Easy (Mainstream Content)
+  - Easy (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
 - [Verify Time] - Instant
 - [Adult Ads on mainstream site] - Yes
