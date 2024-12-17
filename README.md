@@ -646,7 +646,7 @@ _________________________________
 - [Verify Level]
   - Easy (Mainstream Content)
   - HARD (Mainstream Content with Adult Ads)
-    - Not possible if you do not provide adult content 
+    - **Your website can not be under construction and must provide working content that the review team can work with**
   - Easy (Adult Content)
 - [Adult Ads] - Yes
 - [Verify Time] - 24 hours
