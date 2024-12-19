@@ -623,8 +623,8 @@ _________________________________
 
 <details><summary>Click to expand..</summary>
 
-<br><br>
-<br><br>
+
+
 
 # HilltopAds
 - [Verify Level]
@@ -635,6 +635,20 @@ _________________________________
 - [POPUNDER] - Yes
 - [BANNER] - Yes
 - [VAST] - Yes
+
+
+<br><br>
+<br><br>
+
+# JuicyAds
+- [Verify Level]
+  - Hard (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+- [Adult Ads] - Yes
+- [Verify Time] - 24 hours
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - NO
   
 <br><br>
 <br><br>
