@@ -22,6 +22,84 @@
 - https://developers.google.com/interactive-media-ads/docs/sdks/html5/client-side/tags
 
 
+
+
+
+
+
+
+## Max amount of ads VAST
+- https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&cmsid=496&vid=short_onecue&correlator=
+```xml
+ <vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
+ <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll">
+  <vmap:AdSource id="preroll-ad-1" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=preroll&pod=1&ppos=1&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=6496&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll">
+  <vmap:AdSource id="preroll-post-bumper" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=preroll&pod=1&bumper=after&min_ad_duration=0&max_ad_duration=10000&vrid=6496&sb=1&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+  <vmap:Extensions>
+   <vmap:Extension type="bumper" suppress_bumper="true"/>
+  </vmap:Extensions>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
+  <vmap:AdSource id="midroll-1-pre-bumper" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=midroll&pod=2&mridx=1&rmridx=1&bumper=before&min_ad_duration=0&max_ad_duration=10000&vrid=6496&sb=1&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+  <vmap:Extensions>
+   <vmap:Extension type="bumper" suppress_bumper="true"/>
+  </vmap:Extensions>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
+  <vmap:AdSource id="midroll-1-ad-1" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=midroll&pod=2&mridx=1&rmridx=1&ppos=1&min_ad_duration=0&max_ad_duration=30000&vrid=6496&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
+  <vmap:AdSource id="midroll-1-ad-2" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=midroll&pod=2&mridx=1&rmridx=1&ppos=2&min_ad_duration=0&max_ad_duration=30000&vrid=6496&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
+  <vmap:AdSource id="midroll-1-ad-3" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=midroll&pod=2&mridx=1&rmridx=1&ppos=3&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=6496&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
+  <vmap:AdSource id="midroll-1-post-bumper" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=midroll&pod=2&mridx=1&rmridx=1&bumper=after&min_ad_duration=0&max_ad_duration=10000&vrid=6496&sb=1&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+  <vmap:Extensions>
+   <vmap:Extension type="bumper" suppress_bumper="true"/>
+  </vmap:Extensions>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
+  <vmap:AdSource id="postroll-pre-bumper" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=postroll&pod=3&bumper=before&min_ad_duration=0&max_ad_duration=10000&vrid=6496&sb=1&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+  <vmap:Extensions>
+   <vmap:Extension type="bumper" suppress_bumper="true"/>
+  </vmap:Extensions>
+ </vmap:AdBreak>
+ <vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
+  <vmap:AdSource id="postroll-ad-1" allowMultipleAds="false" followRedirects="true">
+   <vmap:AdTagURI templateType="vast3"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&url=&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&useragent=Mozilla/5.0+(X11%3B+Ubuntu%3B+Linux+x86_64%3B+rv:132.0)+Gecko/20100101+Firefox/132.0,gzip(gfe)&vad_type=linear&vpos=postroll&pod=3&ppos=1&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=6496&cmsid=496&video_doc_id=short_onecue&kfa=0&tfcd=0]]></vmap:AdTagURI>
+  </vmap:AdSource>
+ </vmap:AdBreak>
+</vmap:VMAP>
+```
+
+
+
+
+
+
+
+
+
 Hier ist eine Erklärung zu den Begriffen, die du genannt hast, inklusive ihrer Funktionen und Einsatzgebiete:
 
 ---
