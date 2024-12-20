@@ -145,6 +145,81 @@ VAST 4.3 ist die neueste und modernste Version des Standards, entwickelt, um die
 - **Wenn du auf ältere Systeme angewiesen bist:** VAST 3.0 funktioniert weiterhin, hat jedoch Performance-Einschränkungen und ist veraltet.  
 
 Falls du planst, mit modernen Ad-Netzwerken oder programmatischen Plattformen zu arbeiten (z. B. Google Ad Manager, SpotX, FreeWheel), wirst du fast immer mit VAST 4.x arbeiten müssen.
+
+
+
+
+<br><br>
+
+## Autoplay
+
+
+
+Ob ein **autoplay**-Video in Kombination mit VAST-Anzeigen (z. B. Pre-Roll) **für Monetarisierung zählt** (also ob Du Geld dafür bekommst), hängt von den folgenden Faktoren ab:
+
+---
+
+### **1. Viewability und User Interaction (IAB-Richtlinien)**
+- Laut den **IAB-Richtlinien** (Interactive Advertising Bureau), die die Standards für digitale Anzeigen festlegen, muss eine Anzeige **sichtbar sein** und **eine gewisse User-Interaktion aufweisen**, um monetarisiert werden zu können.  
+  - **Viewability**: Mindestens **50% der Anzeige muss für mindestens 2 Sekunden sichtbar** sein, damit sie zählt.
+  - **User Interaction**: Viele Werbetreibende fordern, dass der Nutzer das Video aktiv startet (kein "Muted Autoplay").
+
+---
+
+### **2. Autoplay und Muted Videos**
+Wenn Dein Player so konfiguriert ist, dass er ein Video automatisch abspielt:
+- **Mit Ton**: Autoplay **kann monetarisiert werden**, wenn die Anzeige sichtbar bleibt und abgespielt wird.
+- **Ohne Ton** (muted autoplay): Viele Ad-Server und Werbetreibende **blockieren die Monetarisierung** von Anzeigen, wenn das Video ohne Ton läuft, da dies als "Low Engagement" gilt.
+
+---
+
+### **3. Pre-Roll-Anzeigen bei Autoplay**
+- **Ohne Nutzer-Interaktion (z. B. Klick)**:  
+  Einige VAST-Ad-Systeme (wie Google Ad Manager) behandeln Anzeigen, die bei Autoplay ohne Nutzer-Interaktion starten, **nicht als validiert**, weil kein "Intent" vom Nutzer gezeigt wurde. In diesem Fall bekommst Du kein Geld.
+
+- **Mit Nutzer-Interaktion (z. B. Klick oder Tap)**:  
+  Wenn Du den Nutzer zwingst, zu interagieren (z. B. ein Klick oder Tap, um das Video abzuspielen), dann zählt die Anzeige und wird monetarisiert.
+
+---
+
+### **4. Autoplay in Kombination mit `requestAds()`**
+Wenn Du mit `requestAds()` arbeitest:
+- Die Anzeige wird erst angefordert, wenn die Methode explizit aufgerufen wird.  
+- Falls Dein Autoplay-Video zu früh abgespielt wird, bevor die Anzeige geladen ist, könnte die Anzeige übersprungen werden und Du verlierst Monetarisierung.
+
+Um sicherzugehen:
+- Initialisiere `ima.requestAds()` korrekt **vor** dem Abspielen des Videos.
+- Nutze eine Nutzer-Interaktion (z. B. ein Klick) für den ersten `play()`-Befehl.
+
+---
+
+### **Empfehlung für maximale Monetarisierung**
+1. **Kein Autoplay bei der ersten Anzeige:**  
+   Stelle sicher, dass die Pre-Roll-Werbung nur startet, nachdem der Nutzer das Video absichtlich gestartet hat.
+
+2. **Viewability sicherstellen:**  
+   Der Player muss sichtbar sein und darf nicht minimiert oder ausgeblendet werden.
+
+3. **Fallback für muted autoplay:**  
+   Wenn Dein Video muted autoplay nutzt, zeige einen Hinweis wie "Zum Starten klicken" und initialisiere die Anzeige erst, nachdem der Nutzer klickt.
+
+---
+
+### **Zusammenfassung**
+Wenn Du **Autoplay** ohne Interaktion verwendest, könnten VAST-Anzeigen **nicht für die Monetarisierung zählen**, besonders wenn sie stumm abgespielt werden. Für sichere Einnahmen:
+- Fordere eine Nutzer-Interaktion (z. B. Klick).
+- Stelle sicher, dass die Anzeige sichtbar bleibt.
+- Initialisiere `requestAds()` und das Abspielen erst nach einem Event.
+
+
+
+
+
+
+
+
+
+
  
 </details>
 
