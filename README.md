@@ -809,11 +809,8 @@ _________________________________
 
 
 # reacheffect
-- [Verify Level]
-  - Easy (Mainstream Content with Adult Ads)
-  - Easy (Adult Content)
 - [Adult Ads] -  Yes
-- [Verify Time] - Instant
+- [Verify Time] - 24 hours
 - [POPUNDER] - Yes
 - [BANNER] - Yes
 - [VAST] - Yes
