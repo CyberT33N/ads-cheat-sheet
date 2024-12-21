@@ -795,6 +795,13 @@ _________________________________
 <br><br>
 <br><br>
 
+
+# adnium
+- [Verify Time] - 1 Business day
+
+<br><br>
+<br><br>
+
 # plugrush
 - [Verify Level]
   - Easy (Mainstream Content with Adult Ads)
