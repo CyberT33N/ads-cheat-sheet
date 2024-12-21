@@ -808,12 +808,15 @@ _________________________________
 <br><br>
 <br><br>
 
-# clickadilla
+# clickadilla **HOT**
 - [Adult Ads] - Yes
-- [Verify Time] - 1 Business day
+- [Verify Level]
+  - Easy (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+- [Verify Time] - INSTANT
 - [POPUNDER] - Yes
 - [BANNER] - Yes
-- [VAST] - No
+- [VAST] - Yes
   
 <br><br>
 <br><br>
