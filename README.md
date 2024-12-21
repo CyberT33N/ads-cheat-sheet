@@ -1109,6 +1109,7 @@ _________________________________
 - [POPUNDER] - Yes
 - [BANNER] - Yes
 - [VAST] - Yes
+ - But not hybrid only for desktop or mobile or tablet 
 
 <br><br>
 <br><br>
