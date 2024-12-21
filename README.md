@@ -778,6 +778,9 @@ _________________________________
 
 
 
+# bidvertiser
+- [Adult Ads] - nO
+
 
 # HilltopAds
 - [Verify Level]
