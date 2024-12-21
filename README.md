@@ -776,7 +776,7 @@ _________________________________
 
 <details><summary>Click to expand..</summary>
 
-# twinred
+# twinred **HOT** [ADULT]
 - [Adult Ads] -  Yes
 - [Verify Time] - 1 Business day
 - [POPUNDER] - Yes
