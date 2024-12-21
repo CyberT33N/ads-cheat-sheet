@@ -1331,7 +1331,7 @@ TTL: automatic
 
 <br><br>
 
-# Adsterra
+# Adsterra **HOT**
 - [Verify Level]
   - Easy (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
