@@ -1100,9 +1100,15 @@ _________________________________
 <br><br>
 <br><br>
 
-# trafficstars
-- [Verify Time] - 1 Business day
+# trafficstars **HOT**
+- [Verify Level]
+  - Easy (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+- [Verify Time] - 12 hours
 - [Adult Ads] - Yes
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - Yes
 
 <br><br>
 <br><br>
