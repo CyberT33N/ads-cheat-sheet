@@ -789,6 +789,18 @@ _________________________________
 # bidvertiser
 - [Adult Ads] - nO
 
+<br><br>
+<br><br>
+
+# plugrush
+- [Verify Level]
+  - Easy (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+- [Adult Ads] -  Yes
+- [Verify Time] - Instant
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - No
 
 <br><br>
 <br><br>
