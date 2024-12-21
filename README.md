@@ -1156,9 +1156,17 @@ _________________________________
 - [VAST] - Yes
 
 
-
-
 <br><br>
+<br><br>
+
+## buymedia.biz
+- [Adult Ads] -  Yes
+- [Verify Time] - 24 hours
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - Yes
+
+
 
 
 <br><br>
