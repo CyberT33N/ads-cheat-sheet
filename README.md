@@ -808,6 +808,16 @@ _________________________________
 <br><br>
 <br><br>
 
+# clickadilla
+- [Adult Ads] - Yes
+- [Verify Time] - 1 Business day
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - No
+  
+<br><br>
+<br><br>
+
 # adnium
 - [Verify Time] - 1 Business day
 
