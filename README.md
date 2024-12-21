@@ -779,7 +779,9 @@ _________________________________
 # twinred
 - [Adult Ads] -  Yes
 - [Verify Time] - 1 Business day
-
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - Yes
 
 <br><br>
 <br><br>
