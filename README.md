@@ -789,6 +789,7 @@ _________________________________
 <br><br>
 
 # bidvertiser
+- [Verify Time] - 1 Business day
 - [Adult Ads] - nO
 
 <br><br>
