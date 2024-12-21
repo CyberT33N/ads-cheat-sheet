@@ -857,11 +857,19 @@ _________________________________
 - [VAST] - Yes
 
 
+<br><br>
+<br><br>
 
 
 
+# adspyglass
+- [Adult Ads] - Yes
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - Yes
 
 
+<br><br>
 
 
 <br><br>
