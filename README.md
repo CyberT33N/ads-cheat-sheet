@@ -682,6 +682,7 @@ Hast du bestimmte Traffic-Quellen oder eine Zielgruppe im Kopf? Damit können wi
 
 
 
+
 <br><br>
 <br><br>
 _________________________________
@@ -705,6 +706,162 @@ _________________________________
 1. Popads (Adult)
 2. Popcash (Adult)
 3. JuicyAds (Adult)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+_________________________________
+_________________________________
+<br><br>
+<br><br>
+
+# Traffic Blocking Guide
+
+
+
+Lass uns die Optionen, warum du sie blockieren solltest (oder nicht), im Detail analysieren. Ziel ist, die Traffic-Qualität zu optimieren, um bessere Monetarisierung zu gewährleisten. Gleichzeitig solltest du echten Traffic nicht verlieren.  
+
+---
+
+### **1. Block returned traffic**  
+**Definition:** Verhindert wiederholte Zugriffe von demselben Nutzer in kurzer Zeit.  
+- **Warum blockieren?**  
+  - Wiederholter Traffic bringt oft keine Monetarisierung. Ad Networks erkennen, dass derselbe Nutzer keine neuen Anzeigen sieht, und zahlen weniger.
+  - Schützt vor Bots, die eine Seite wiederholt aufrufen.  
+- **Warum nicht blockieren?**  
+  - Wiederkehrende Besucher können echte Nutzer sein (z. B. Stammkunden).  
+  - Bei Seiten mit hohem Engagement, wie Foren oder Blogs, könnten echte Nutzer blockiert werden.  
+- **Empfehlung:** Blockieren, wenn dein Traffic-Volumen stark von Bots geprägt ist. Testweise blockieren und die Einnahmen überwachen.  
+
+---
+
+### **2. Block noref traffic**  
+**Definition:** Blockiert Traffic ohne Referrer-Daten (z. B. direkt eingegebene URLs oder aus unbekannten Quellen).  
+- **Warum blockieren?**  
+  - Referrer-Daten sind ein Indikator für legitime Besucher.  
+  - Traffic ohne Referrer kommt oft von Bots, Spam oder unseriösen Quellen, die keine Einnahmen bringen.  
+- **Warum nicht blockieren?**  
+  - Viele echte Nutzer (z. B. aus Social Media Apps oder privaten Links) könnten blockiert werden.  
+  - Mobile Geräte schicken manchmal keine Referrer-Daten (besonders iOS).  
+- **Empfehlung:** Blockieren, wenn dein Ad Network spezifisch Referrer verlangt. Ansonsten vorsichtig sein, besonders bei mobilen Nutzern.
+
+---
+
+### **3. Block nocookie traffic**  
+**Definition:** Blockiert Nutzer, die keine Cookies akzeptieren (z. B. wegen Browser-Einstellungen oder Adblockern).  
+- **Warum blockieren?**  
+  - Ad Networks brauchen Cookies für Targeting, Tracking und Optimierung. Ohne Cookies sinkt die CPM.  
+  - Nutzer mit deaktivierten Cookies könnten Bots sein.  
+- **Warum nicht blockieren?**  
+  - Datenschutzgesetze (wie DSGVO) haben zu einem Anstieg von Cookie-freundlichem Traffic geführt. Das Blockieren könnte legalen EU-Traffic ausschließen.  
+  - Mobile Nutzer oder Browser mit hohen Datenschutzstandards könnten ebenfalls ausgeschlossen werden.  
+- **Empfehlung:** Blockiere, wenn dein Traffic nicht stark aus der EU kommt und du auf Targeting angewiesen bist. Testweise blockieren und Ergebnisse beobachten.  
+
+---
+
+### **4. Block WebView traffic**  
+**Definition:** Blockiert Traffic aus WebViews (z. B. In-App-Browser von Facebook, Instagram, Telegram, etc.).  
+- **Warum blockieren?**  
+  - WebViews werden oft von Bots missbraucht.  
+  - CPM-Werte für WebView-Traffic sind niedrig, da Ad Networks oft keine präzisen Daten aus WebViews sammeln können.  
+- **Warum nicht blockieren?**  
+  - Viele Nutzer greifen von sozialen Netzwerken auf Inhalte zu. Dieser Traffic könnte echt sein, aber schlechter monetarisiert werden.  
+- **Empfehlung:** Blockiere WebViews, wenn der Großteil deines Traffics nicht von sozialen Netzwerken kommt.
+
+---
+
+### **5. Block nonunique traffic**  
+**Definition:** Blockiert Traffic von Nutzern, die wiederholt dieselbe Seite besuchen, ohne einzigartig zu sein (z. B. durch IPs).  
+- **Warum blockieren?**  
+  - Ad Networks erkennen wiederholten Traffic und senken die Vergütung.  
+  - Bots oder automatisierte Klicks erzeugen non-unique Traffic.  
+- **Warum nicht blockieren?**  
+  - Echte Besucher, die regelmäßig dieselbe Seite aufrufen, könnten fälschlicherweise ausgeschlossen werden.  
+- **Empfehlung:** Blockieren, wenn du merkst, dass der Großteil deines Traffics Bots sind.  
+
+---
+
+### **6. Block search engine crawlers**  
+**Definition:** Verhindert Zugriffe von Suchmaschinen-Bots wie Google, Bing, etc.  
+- **Warum blockieren?**  
+  - Suchmaschinen-Crawler klicken keine Anzeigen und bringen keinen Umsatz.  
+  - Sie können deinen Server belasten, besonders bei hohem Traffic-Volumen.  
+- **Warum nicht blockieren?**  
+  - Crawler sind wichtig für SEO und die Indexierung deiner Seite. Ohne sie könnte deine Seite weniger sichtbar sein.  
+- **Empfehlung:** Blockiere sie nur in Ad-Placements (nicht auf der ganzen Seite). AdSpyglass hat Optionen, um Crawler vom Ad-Bereich fernzuhalten.
+
+---
+
+### **7. Block proxy types (VPN, Tor, Proxies)**  
+**Definition:** Blockiert Traffic über VPNs, Tor-Netzwerke, oder Proxies.  
+- **Warum blockieren?**  
+  - Proxy-Traffic wird oft von Bots oder illegitimem Traffic genutzt.  
+  - Ad Networks stufen VPN-Traffic häufig als minderwertig ein, wodurch CPM-Werte sinken.  
+- **Warum nicht blockieren?**  
+  - Echte Nutzer (z. B. in Ländern mit Zensur oder hohen Datenschutzanforderungen) verwenden oft VPNs.  
+  - Ein zu aggressives Blockieren könnte Traffic aus legitimen Ländern ausschließen.  
+- **Empfehlung:** Blockiere verdächtige Proxy-Typen (z. B. Tor oder öffentliche Proxies). Whiteliste vertrauenswürdige VPNs, wenn möglich.
+
+---
+
+### **8. Direct/Non Proxy**  
+**Definition:** Blockiert Traffic ohne Proxy oder VPN.  
+- **Warum blockieren?**  
+  - Hier gibt es keinen klaren Grund zum Blockieren. Echte Nutzer greifen direkt zu.  
+- **Warum nicht blockieren?**  
+  - Du würdest normalen Traffic verlieren.  
+- **Empfehlung:** Niemals blockieren. Echte Nutzer kommen oft direkt.  
+
+---
+
+### **Fazit: Was solltest du blockieren?**
+1. **Immer blockieren:**  
+   - WebView-Traffic  
+   - Search Engine Crawlers  
+   - Offensichtliche Proxy-Typen (z. B. Tor, öffentliche Proxies)  
+
+2. **Optional blockieren:**  
+   - NoRef Traffic  
+   - NoCookie Traffic  
+   - NonUnique Traffic  
+
+3. **Nicht blockieren:**  
+   - Direct/Non Proxy Traffic  
+   - Echte VPN-Nutzer (nach Überprüfung).  
+
+**Strategie:** Blockiere schrittweise und überprüfe deine CPM und Einnahmen. Ziel ist, die Qualität des Traffics zu verbessern, ohne legitime Besucher auszuschließen.
+
+
+
+
+
+
+
+
+
+
 
 
 
