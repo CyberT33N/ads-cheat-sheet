@@ -899,6 +899,22 @@ _________________________________
 
 
 
+
+# Manager
+- Analyse all your ad companies where you are publisher
+
+## adspyglass
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
 # Advertiser
 
 <details><summary>Click to expand..</summary>
@@ -1014,16 +1030,6 @@ _________________________________
 - [VAST] - Yes
 
 
-<br><br>
-<br><br>
-
-
-
-# adspyglass
-- [Adult Ads] - Yes
-- [POPUNDER] - Yes
-- [BANNER] - Yes
-- [VAST] - Yes
 
 
 <br><br>
