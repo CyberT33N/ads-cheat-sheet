@@ -807,6 +807,28 @@ _________________________________
 <br><br>
 <br><br>
 
+
+# reacheffect
+- [Verify Level]
+  - Easy (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+- [Adult Ads] -  Yes
+- [Verify Time] - Instant
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - Yes
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
 # HilltopAds
 - [Verify Level]
   - Easy (Mainstream Content with Adult Ads)
