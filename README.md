@@ -776,11 +776,20 @@ _________________________________
 
 <details><summary>Click to expand..</summary>
 
+# twinred
+- [Adult Ads] -  Yes
+- [Verify Time] - 1 Business day
 
+
+<br><br>
+<br><br>
 
 # bidvertiser
 - [Adult Ads] - nO
 
+
+<br><br>
+<br><br>
 
 # HilltopAds
 - [Verify Level]
