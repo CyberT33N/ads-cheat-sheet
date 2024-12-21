@@ -692,22 +692,123 @@ _________________________________
 
 
 # Ratings CPM - Companies
+- https://www.adspyglass.com/best-ad-networks
 
-## Banner
-1. Juicy Ads (Adult)
 
-## VAST
-1. Exoclick (Adult)
-2. HilltopAds (Adult)
-3. Google Ads
 
+
+
+<br><br>
+
+# Banner
+
+<br><br>
+
+## Adult
+
+<br><br>
+
+### USA
+
+
+| **Ad Network**       | **Ads Types**      | **Min Payout** | **Frequency**              | **Payment Systems**   | **CPM for the USA** |
+|-----------------------|--------------------|----------------|----------------------------|-----------------------|---------------------|
+| **AdSpyglass**        | Popunders          | $10            | Bi-weekly                 | Multiple options      | $0.24              |
+| **AdsTerra**          | Popunders          | $5             | Bi-weekly                 | Multiple options      | $0.24              |
+| **Adnium**            | Popunders          | $100           | On request                | Multiple options      | $0.06              |
+| **Evadav**            | Popunders          | $25            | Weekly                    | Multiple options      | $0.04              |
+| **TrafficForce**      | Popunders          | $100           | Weekly                    | Multiple options      | $0.03              |
+| **ExoClick**          | Popunders          | $20            | Weekly                    | Multiple options      | $0.02              |
+| **HilltopAds**        | Popunders          | $10            | Weekly                    | Multiple options      | $0.02              |
+| **TrafficStars**      | Popunders          | $100           | Weekly                    | Multiple options      | $0.01              |
+| **TwinRed**           | Popunders          | $50            | Monthly                   | Multiple options      | $0.01              |
+| **Clickadu**          | Popunders          | $10            | Weekly, Bi-weekly, Monthly| Multiple options      | $0.01              |
+| **Kadam**             | Popunders          | $15            | Weekly                    | Multiple options      | $0.01              |
+| **ClickAdilla**       | Popunders          | $50            | On request                | Multiple options      | $0.00              |
+| **Ero-Advertising**   | Popunders          | €10            | Weekly                    | Multiple options      | $0.00              |
+| **TrafficShop**       | Popunders          | $50            | On request                | Multiple options      | $0.00              |
+| **Clickaine**         | Popunders          | $50            | On request                | Multiple options      | $0.00              |
+| **Media Modern DSP**  | Popunders          | -              | Daily                     | Multiple options      | -                  |
+
+Let me know if you’d like any further refinements!
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+# VAST
+
+<br><br>
+
+## Adult
+
+<br><br>
+
+### USA
+
+
+| **Ad Network**      | **Ads Types**      | **Min Payout** | **Frequency**             | **Payment Systems** | **CPM for the USA** |
+|----------------------|--------------------|----------------|---------------------------|----------------------|---------------------|
+| **AdSpyglass**       | Popunders          | $10            | Bi-weekly                | Multiple options     | $1.23              |
+| **HilltopAds**       | Popunders          | $10            | Weekly                   | Multiple options     | $1.23              |
+| **TrafficStars**     | Popunders          | $100           | Weekly                   | Multiple options     | $0.59              |
+| **TwinRed**          | Popunders          | $50            | Monthly                  | Multiple options     | $0.58              |
+| **ClickAdilla**      | Popunders          | $50            | On request               | Multiple options     | $0.47              |
+| **ExoClick**         | Popunders          | $20            | Weekly                   | Multiple options     | $0.39              |
+| **Tubecorporate**    | Popunders          | $50            | Bi-weekly                | Multiple options     | $0.22              |
+| **BuyMedia.biz**     | Popunders          | $8             | On request               | Multiple options     | $0.16              |
+| **Rivertraffic**     | Popunders          | $100           | Bi-weekly                | Multiple options     | $0.13              |
+| **Adnium**           | Popunders          | $100           | On request               | Multiple options     | $0.10              |
+| **Clickadu**         | Popunders          | $10            | Weekly, Bi-weekly, Monthly | Multiple options  | $0.09              |
+| **Clickaine**        | Popunders          | $50            | On request               | Multiple options     | $0.03              |
+
+Let me know if there’s anything more you’d like to adjust!
+
+
+
+
+
+<br><br>
+<br><br>
 
 # POPUNDER
-1. Popads (Adult)
-2. Popcash (Adult)
-3. JuicyAds (Adult)
 
+## Adult
 
+### USA
+
+| **Ad Network**     | **Ads Types**      | **Min Payout** | **Frequency**             | **Payment Systems** | **CPM for the USA** |
+|---------------------|--------------------|----------------|---------------------------|----------------------|---------------------|
+| **AdSpyglass**      | Popunders          | $10            | Bi-weekly                | Multiple options     | $2.34              |
+| **AdsTerra**        | Popunders          | $5             | Bi-weekly                | Multiple options     | $2.34              |
+| **TrafficShop**     | Popunders          | $50            | On request               | Multiple options     | $1.52              |
+| **JuicyAds**        | Popunders          | $25            | On request               | Multiple options     | $1.45              |
+| **TwinRed**         | Popunders          | $50            | Monthly                  | Multiple options     | $1.34              |
+| **Evadav**          | Popunders          | $25            | Weekly                   | Multiple options     | $1.21              |
+| **HilltopAds**      | Popunders          | $10            | Weekly                   | Multiple options     | $1.11              |
+| **TrafficStars**    | Popunders          | $100           | Weekly                   | Multiple options     | $1.08              |
+| **ExoClick**        | Popunders          | $20            | Weekly                   | Multiple options     | $1.06              |
+| **Clickadu**        | Popunders          | $10            | Weekly, Bi-weekly, Monthly | Multiple options  | $0.68              |
+| **PopCash**         | Popunders          | $10            | On request               | Multiple options     | $0.67              |
+| **TrafficOX**       | Popunders          | $10            | Weekly                   | Multiple options     | $0.60              |
+| **ClickAdilla**     | Popunders          | $50            | On request               | Multiple options     | $0.57              |
+| **Rivertraffic**    | Popunders          | $100           | Bi-weekly                | Multiple options     | $0.56              |
+| **Kadam**           | Popunders          | $15            | Weekly                   | Multiple options     | $0.53              |
+| **Plugrush**        | Popunders          | $25            | On request               | Multiple options     | $0.46              |
+| **Clickaine**       | Popunders          | $50            | On request               | Multiple options     | $0.43              |
+| **Tubecorporate**   | Popunders          | $50            | Bi-weekly                | Multiple options     | $0.12              |
+| **TrafficForce**    | Popunders          | $100           | Weekly                   | Multiple options     | $0.06              |
+| **Adnium**          | Popunders          | $100           | On request               | Multiple options     | $0.06              |
+| **Popunder DSP**    | Popunders          | $10            | Weekly                   | Multiple options     | Data not provided  |
+
+Let me know if you’d like me to add more details or tweak the formatting!
 
 
 
