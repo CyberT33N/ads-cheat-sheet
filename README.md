@@ -801,6 +801,12 @@ _________________________________
 <br><br>
 <br><br>
 
+# trafficstars
+- [Verify Time] - 1 Business day
+- [Adult Ads] - Yes
+
+<br><br>
+<br><br>
 
 # adnium
 - [Verify Time] - 1 Business day
