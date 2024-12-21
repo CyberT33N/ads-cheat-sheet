@@ -1267,6 +1267,19 @@ _________________________________
 
 <br><br>
 
+# Monetag **HOT**
+- [Verify Level]
+  - Easy (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+- [Verify Time] - Instant
+- [Adult Ads] - Yes
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - NO
+
+
+<br><br>
+
 # Popads **HOT**
 - [Verify Level]
   - Easy (Mainstream Content with Adult Ads)
