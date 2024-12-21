@@ -1214,6 +1214,20 @@ _________________________________
 - [POPUNDER] - Yes
 - [BANNER] - Yes
 
+
+<br><br>
+
+# Trafficshop
+- [Verify Level]
+  - Hard (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+- [Adult Ads] - Yes
+- [Verify Time] - 12 hours
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - NO
+
+
 <br><br>
 
 # Mondiad
