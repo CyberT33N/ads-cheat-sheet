@@ -1255,6 +1255,18 @@ _________________________________
 - [BANNER] - Yes
 - [VAST] - NO
 
+<br><br>
+
+
+# evadav
+- [Verify Level]
+  - Easy (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+- [Adult Ads] - Yes
+- [Verify Time] - Instant
+- [POPUNDER] - Yes
+- [BANNER] - Yes
+- [VAST] - NO
 
 
 <br><br>
