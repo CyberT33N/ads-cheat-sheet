@@ -1089,6 +1089,9 @@ _________________________________
 <details><summary>Click to expand..</summary>
 
 # twinred **HOT** [ADULT]
+- [Verify Level]
+  - Hard (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
 - [Adult Ads] -  Yes
 - [Verify Time] - 1 Business day
 - [POPUNDER] - Yes
