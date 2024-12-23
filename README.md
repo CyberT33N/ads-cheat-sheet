@@ -784,7 +784,7 @@ Let me know if there’s anything more you’d like to adjust!
 
 Compared with blog articles and related to adsspyglas I would say this Order ist best:
 1. Popads
-2. AdsTerra
+2. AdsTerra (not recommended - lot of aggressives redirects)
 3. Monetag
 
 ### USA
@@ -1346,7 +1346,8 @@ TTL: automatic
 
 <br><br>
 
-# Adsterra **HOT**
+# Adsterra **BAD**
+- **Even if the payout is high there a bad thinks like scam an redirect which will be bad for returning users. Also your site will maybe not work if they re-direct you all the time and not using popunder**
 - [Verify Level]
   - Easy (Mainstream Content with Adult Ads)
   - Easy (Adult Content)
