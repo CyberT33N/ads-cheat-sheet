@@ -1151,7 +1151,8 @@ _________________________________
 # kadam
 - [Verify Time] - 1 Business day
 - [Verify Level]
-  - Needs Access to Google Analytics 
+  - Needs Access to Google Analytics
+    - You need atleast 500 unique Users 
 
 
 <br><br>
