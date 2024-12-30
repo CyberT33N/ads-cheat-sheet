@@ -1137,8 +1137,11 @@ _________________________________
 
 # adnium
 - [Verify Time] - 1 Business day
-
-  
+- [Adult Ads] - Yes
+- [Verify Level]
+  - Hard (Mainstream Content with Adult Ads)
+  - Easy (Adult Content)
+    
 <br><br>
 <br><br>
 
