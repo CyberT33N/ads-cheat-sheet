@@ -1172,6 +1172,7 @@ _________________________________
 
 
 # reacheffect
+- Can not find any publisher add site area??
 - [Adult Ads] -  Yes
 - [Verify Time] - 24 hours
 - [POPUNDER] - Yes
@@ -1185,6 +1186,8 @@ _________________________________
 ## buymedia.biz
 - [Adult Ads] -  Yes
 - [Verify Time] - 24 hours
+- [Verify Level]
+  - Hard (You need to prove statistics)
 - [POPUNDER] - Yes
 - [BANNER] - Yes
 - [VAST] - Yes
