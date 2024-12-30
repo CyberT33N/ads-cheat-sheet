@@ -1103,7 +1103,9 @@ _________________________________
 
 # bidvertiser
 - [Verify Time] - 1 Business day
-- [Adult Ads] - nO
+- [Adult Ads] - No
+- [Verify Level]
+  - Hard (Got declined with normal site - Not sure why)
 
 <br><br>
 <br><br>
